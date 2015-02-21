@@ -2,7 +2,9 @@
   "name": "dlapi",
   "version": "0.0.1",
   "description": "A very basic download server",
-  "main": "index.js",
+  "bin": {
+    "dlapi": "dlapi.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
